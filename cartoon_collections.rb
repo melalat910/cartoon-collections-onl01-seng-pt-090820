@@ -22,7 +22,12 @@ def long_planeteer_calls(planeteer_calls)
 end
 long_planeteer_calls(planeteer_calls)
 
-def find_the_cheese# code an argument here
+food = ["garlic", "rosemary", "bread", "cheddar"]
+def find_the_cheese(food)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-end
+  food.find do |fud|
+    cheese_types.include?(fud)
+   end
+ end
+find_the_cheese(food)
