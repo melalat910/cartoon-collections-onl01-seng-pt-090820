@@ -1,5 +1,11 @@
 def roll_call_dwarves(dwarves)# code an argument here
- puts ["Doc", "Dopey", "Bashful", "Grumpy"]
+  dwarves.map.with_index do |dwarf, i|
+     "#{i + 1}. #{dwarf}"
+   end.join("\n")
+ end
+ 
+ dwarves = %w{Doc Dopey Bashful Grumpy}
+ puts roll_call_dwarves(dwarves)
   # Your code here
 end
 
