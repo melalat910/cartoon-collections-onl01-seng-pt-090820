@@ -5,8 +5,6 @@
       puts "#{index+1}. #{name}"
     end
   end
-  # Your code here
-end
 
 def summon_captain_planet(veggies)# code an argument here
   # Your code here
