@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)# code an argument here
      "#{i + 1}. #{dwarf}"
    end.join("\n")
  end
- 
+
  dwarves = %w{Doc Dopey Bashful Grumpy}
  puts roll_call_dwarves(dwarves)
   # Your code here
